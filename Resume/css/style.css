@@ -1,0 +1,39 @@
+.top{
+  background-color: orange;
+}
+body{
+font-family: 'Roboto', sans-serif;
+  font-size:17px;
+}
+.name{
+  font-family: 'Oswald', sans-serif;
+  font-size:50px;
+    color: white;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+.categories{
+  font-family: 'Oswald', sans-serif;
+  font-size:30px;
+  color: orange;
+  padding: 0px;
+}
+a{
+  text-decoration: none;
+  color:orange;
+}
+a:hover{
+  color: brown;
+}
+.Hobbies, th, td{
+  border: 2px solid orange;
+  border-collapse: collapse;
+  padding: 10px;
+}
+.numbers{
+text-align: center;
+}
+.Hobbies{
+width: 270px;
+}
