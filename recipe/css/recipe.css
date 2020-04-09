@@ -1,6 +1,9 @@
 .hide{
   display: none;
 }
+header{
+  text-align: center;
+}
 body{
   margin:0;
   padding:0;
@@ -34,6 +37,46 @@ img{
 }
 .preheat{
   background-image: url(../pics/oven1.jpg);
+  background-size:cover;
+  min-height: 100%;
+  width: 100%;
+  height: auto;
+  position: fixed;
+}
+.dough-making{
+  background-image: url(../pics/rolldough.jpg);
+  background-size:cover;
+  min-height: 100%;
+  width: 100%;
+  height: auto;
+  position: fixed;
+}
+.caramel-making{
+  background-image: url(../pics/caramel.jpg);
+  background-size:cover;
+  min-height: 100%;
+  width: 100%;
+  height: auto;
+  position: fixed;
+}
+.apples{
+  background-image: url(../pics/apples.jpg);
+  background-size:cover;
+  min-height: 100%;
+  width: 100%;
+  height: auto;
+  position: fixed;
+}
+.pie{
+  background-image: url(../pics/pieoven.jpg);
+  background-size:cover;
+  min-height: 100%;
+  width: 100%;
+  height: auto;
+  position: fixed;
+}
+.serve{
+  background-image: url(../pics/glace.jpg);
   background-size:cover;
   min-height: 100%;
   width: 100%;
