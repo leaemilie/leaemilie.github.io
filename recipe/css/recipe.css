@@ -1,6 +1,3 @@
-.hide{
-  display: none;
-}
 header{
   text-align: center;
 }
@@ -8,8 +5,26 @@ body{
   margin:0;
   padding:0;
 }
-img{
-  width: 100%;
+h2{
+  margin-left: 100px;
+}
+p{
+  margin-left: 100px;
+}
+li{
+  margin-left: 50px;
+}
+button{
+  margin-left: 100px;
+}
+.conversion{
+  margin-left: 40px;
+}
+.servings{
+  margin-left: 100px;
+}
+.hide{
+  display: none;
 }
 .intro{
   background-image: url(../pics/homepic.jpg);
@@ -18,6 +33,8 @@ img{
   width: 100%;
   height: auto;
   position: fixed;
+
+  color: white;
 }
 .utensils{
   background-image: url(../pics/utensils.jpg);
@@ -42,6 +59,8 @@ img{
   width: 100%;
   height: auto;
   position: fixed;
+
+  color: white;
 }
 .dough-making{
   background-image: url(../pics/rolldough.jpg);
@@ -74,6 +93,8 @@ img{
   width: 100%;
   height: auto;
   position: fixed;
+
+  color: white;
 }
 .serve{
   background-image: url(../pics/glace.jpg);

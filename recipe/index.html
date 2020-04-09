@@ -10,9 +10,9 @@
       <header>
         <h1>Léa's homemade <br><i>Tarte Tatin</i> recipe</h1>
       </header>
-      <div class="servings clear">For 6-8 people</div>
 
 <section class="intro">
+<div class="servings clear">For 6-8 people</div>
     <p>Want to impress your friends? <br>
     Learn how to make this delicious french apple pie recipe to wow your guests! <br>
     No experience necessary.</p>
@@ -113,6 +113,7 @@
 <section class="apples hide">
     <h2>Preparing the apples</h2>
     <p>Cut the apples in big cubes and place them in a bowl.</p>
+    <p><i><strong>Pro tip:</strong> if you want a finish like on the picture at the beginning, add a 3rd apple and cut all of them in quarters.</i></p>
     <!-- <img class="apples-image" src="pics/apples.jpg" alt="cutting-apples"> -->
     <button class="back6" type="button" name="back">Back</button>
     <button class="step7" type="button" name="next">Next</button>
@@ -138,8 +139,7 @@
 
 <section class="serve hide">
   <h2>Serve</h2>
-  <p>upside down on a big serving plate and accompany your slice with vanilla ice cream.</p>
-  <p>Bon appétit!</p>
+  <p>Upside down on a big serving plate and accompany your slice with vanilla ice cream.</p>
 <!-- <img class="slice-image" src="pics/glace.jpg" alt="pie-slice"> -->
   <button class="back8" type="button" name="back">Back</button>
 </section>
@@ -184,9 +184,9 @@
       // $(".ingredients").show(1000);
       // )};
       $(".step4").click(function(){
-      $(".preheat").slideUp("slow");
-      $(".dough-making").show();
-      $(".serve").append("<p class='final'>Enjoy!</p>");
+      $(".preheat").slideUp(1000);
+      $(".dough-making").show(1000);
+      $(".serve").append("<p class='final'>Bon appétit!</p>");
       });
 
     // Step Five
