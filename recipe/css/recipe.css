@@ -1,12 +1,17 @@
 header{
   text-align: center;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 15px;
+  color: chocolate;
 }
 body{
   margin:0;
   padding:0;
+  font-family: 'Oswald', sans-serif;
 }
 h2{
   margin-left: 100px;
+  padding-top: 30px;
 }
 p{
   margin-left: 100px;
@@ -22,6 +27,8 @@ button{
 }
 .servings{
   margin-left: 100px;
+  padding-top: 100px;
+  text-emphasis: bold;
 }
 .hide{
   display: none;
