@@ -1,11 +1,42 @@
 .hide{
   display: none;
 }
-
-/* body{
-  background-image: url("../pics/homepic.jpg");
-} */
-
+body{
+  margin:0;
+  padding:0;
+}
 img{
   width: 100%;
+}
+.intro{
+  background-image: url(../pics/homepic.jpg);
+  background-size:cover;
+  min-height: 100%;
+  width: 100%;
+  height: auto;
+  position: fixed;
+}
+.utensils{
+  background-image: url(../pics/utensils.jpg);
+  background-size:cover;
+  min-height: 100%;
+  width: 100%;
+  height: auto;
+  position: fixed;
+}
+.ingredients{
+  background-image: url(../pics/ingredients1.jpg);
+  background-size:cover;
+  min-height: 100%;
+  width: 100%;
+  height: auto;
+  position: fixed;
+}
+.preheat{
+  background-image: url(../pics/oven1.jpg);
+  background-size:cover;
+  min-height: 100%;
+  width: 100%;
+  height: auto;
+  position: fixed;
 }
