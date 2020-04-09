@@ -130,3 +130,27 @@ button:hover{
   height: auto;
   position: fixed;
 }
+/* @media only screen and (max-width:860px){
+
+  .daytime-pics{
+    width: 300px;
+    padding: 10px;
+  }
+
+  .nightlife-grid img {
+      width: 300px;
+      padding: 10px;
+  }
+}
+
+
+@media only screen and  (min-width:1200px){
+  .daytime-pics{
+    width: 450px;
+    padding: 10px;
+  }
+
+  .nightlife-grid img {
+      width: 450px;
+      padding: 10px;
+  } */
