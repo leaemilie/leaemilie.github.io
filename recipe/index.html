@@ -13,7 +13,7 @@
       </header>
 
 <section class="intro">
-<div class="servings clear">For 6-8 people</div>
+<div class="servings clear"><em>For 6-8 people</em></div>
     <p>Want to impress your friends? <br>
     Learn how to make this delicious french apple pie recipe to wow your guests! <br>
     No experience necessary.</p>
@@ -45,7 +45,7 @@
 <section class="ingredients hide">
     <h2>Ingredients</h2>
     <ul>
-      <head><strong>For the Dough</strong></head><br><br>
+      <head><strong style="color: lightsalmon; font-size: 20px;">For the Dough</strong></head><br><br>
       <li>300g of all purpose flour</li>
       <li>150g of butter</li>
       <li>half a teaspoon of salt</li>
@@ -57,7 +57,7 @@
     </ul>
 
     <ul>
-      <head><strong>For the Apple mix</strong></head><br><br>
+      <head><strong style="color: lightsalmon; font-size: 20px;">For the Apple mix</strong></head><br><br>
       <li>100g of sugar</li>
       <li>50g of butter</li>
       <li>2 honey crisp apples</li>
@@ -73,7 +73,7 @@
 </section>
 
 <section class="preheat hide">
-  <h2>Preheat the oven</h2>
+  <h2>Preheat the <strong style="color: lightsalmon; font-size: 30px;">Oven</strong></h2>
   <p><i>at <strong>410°F </strong>or <strong>210°C</strong>.</i></p>
 
   <!-- <img class="oven-image" src="pics/oven1.jpg" alt="oven"> -->
@@ -83,7 +83,7 @@
 </section>
 
 <section class="dough-making hide">
-    <h2>Making the Dough</h2>
+    <h2>Making the <strong style="color: seashell; font-size: 30px;">Dough</strong></h2>
     <ol>
     <li>Strain the flour in a bowl and mix it with the salt and sugar.</li>
     <li>Add the cinnamon and nutmeg powders, with a few drops of the vanilla extract.</li>
@@ -100,7 +100,7 @@
 </section>
 
 <section class="caramel-making hide">
-    <h2>Making the Caramel</h2>
+    <h2>Making the <strong style="color: chocolate; font-size: 30px;">Caramel</strong></h2>
     <ol>
     <li>Place the butter and sugar in the pan on low heat.</li>
     <li>Let cook for 5 min. The caramel will form itself.</li>
@@ -112,7 +112,7 @@
 </section>
 
 <section class="apples hide">
-    <h2>Preparing the apples</h2>
+    <h2>Preparing the <strong style="color: crimson; font-size: 30px;">Apples</strong></h2>
     <p>Cut the apples in big cubes and place them in a bowl.</p>
     <p><i><strong>Pro tip:</strong> if you want a finish like on the picture at the beginning, add a 3rd apple and cut all of them in quarters.</i></p>
     <!-- <img class="apples-image" src="pics/apples.jpg" alt="cutting-apples"> -->
@@ -122,7 +122,7 @@
 </section>
 
 <section class="pie hide">
-    <h2>Assembling the Pie</h2>
+    <h2>Assembling the <em style="color: lightsalmon; font-size: 30px;">Pie</em></h2>
     <ol>
     <li>Cover the entire surface of the bottom of the pie pan with the caramel.</li>
     <li>Place the apples on the caramel and fill the pie pan with them.</li>
@@ -143,6 +143,7 @@
   <p>Upside down on a big serving plate and accompany your slice with vanilla ice cream.</p>
 <!-- <img class="slice-image" src="pics/glace.jpg" alt="pie-slice"> -->
   <button class="back8" type="button" name="back">Back</button>
+  <button class="top" type="button" name="top">Top</button>
 </section>
 
     </main>
@@ -234,6 +235,10 @@
       // $(".serve").hide(1000);
       // $(".pie").show(1000);
       // )};
+      $(".top").click(function(){
+      $(".serve").hide(1000);
+      $(".intro").show(1000);
+      });
 
 
       });

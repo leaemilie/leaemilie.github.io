@@ -21,6 +21,14 @@ li{
 }
 button{
   margin-left: 100px;
+  background: chocolate;
+  padding: .5rem 1rem;
+  font-size: 20px;
+  color: white;
+  font-family: 'Permanent Marker', cursive;
+}
+button:hover{
+  background: lightsalmon;
 }
 .conversion{
   margin-left: 40px;
@@ -28,7 +36,6 @@ button{
 .servings{
   margin-left: 100px;
   padding-top: 100px;
-  text-emphasis: bold;
 }
 .hide{
   display: none;
@@ -92,6 +99,8 @@ button{
   width: 100%;
   height: auto;
   position: fixed;
+
+  color: white;
 }
 .pie{
   background-image: url(../pics/pieoven.jpg);
