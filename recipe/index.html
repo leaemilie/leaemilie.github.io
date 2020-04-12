@@ -158,6 +158,14 @@
 <script type="text/javascript">
 
     $(document).ready(function(){
+
+    // Button effect
+      $(".step1").mouseover(function(){
+      $(".step1").css("background-color", "lightsalmon");
+      });
+      $(".step1").mouseleave(function(){
+      $(".step1").css("background-color", "chocolate");
+      });
     // Step One
       $(".step1").click(function(){
       $(".intro").hide(1000);
