@@ -1,8 +1,5 @@
-.content{
-  display: grid;
-  /* padding: 25px; */
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  grid-template-rows: repeat(2, minmax(0, 1fr));
+h1{
+  font-size: 2em;
 }
 header{
   text-align: center;
@@ -11,7 +8,6 @@ header{
   color: chocolate;
 }
 body{
-  text-align: center;
   margin:0;
   padding:0;
   font-family: 'Oswald', sans-serif;
@@ -25,6 +21,9 @@ p{
 }
 li{
   margin-left: 50px;
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
 }
 button{
   margin-left: 100px;
@@ -38,7 +37,12 @@ button:hover{
   background: lightsalmon;
 }
 .conversion{
-  margin-left: 40px;
+ background: seashell;
+ color: chocolate;
+}
+.conversion:hover{
+  background: lightsalmon;
+  color: white;
 }
 .servings{
   margin-left: 100px;
@@ -73,7 +77,18 @@ button:hover{
   width: 100%;
   height: auto;
   position: fixed;
+  font-size: 1.5em;
+  padding: none;
+  margin: none;
 }
+.board{
+  display: grid;
+  padding: none;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-rows: repeat(1, minmax(0, 1fr));
+  grid-column: 1;
+}
+
 .preheat{
   background-image: url(../pics/oven1.jpg);
   background-size:cover;
@@ -81,7 +96,7 @@ button:hover{
   width: 100%;
   height: auto;
   position: fixed;
-
+  font-size: 2em;
   color: white;
 }
 .dough-making{
@@ -91,6 +106,7 @@ button:hover{
   width: 100%;
   height: auto;
   position: fixed;
+  font-size: 2em;
 }
 .caramel-making{
   background-image: url(../pics/caramel.jpg);
@@ -99,6 +115,7 @@ button:hover{
   width: 100%;
   height: auto;
   position: fixed;
+  font-size: 2em;
 }
 .apples{
   background-image: url(../pics/apples.jpg);
@@ -107,7 +124,7 @@ button:hover{
   width: 100%;
   height: auto;
   position: fixed;
-
+  font-size: 2em;
   color: white;
 }
 .pie{
@@ -117,7 +134,7 @@ button:hover{
   width: 100%;
   height: auto;
   position: fixed;
-
+  font-size: 2em;
   color: white;
 }
 .serve{
@@ -127,28 +144,25 @@ button:hover{
   width: 100%;
   height: auto;
   position: fixed;
+  font-size: 2em;
 }
-/* @media only screen and (max-width:860px){
+.gr{
+  color: chocolate;
+}
+.cup{
+  color: chocolate;
+}
 
-  .daytime-pics{
-    width: 300px;
-    padding: 10px;
-  }
-
-  .nightlife-grid img {
-      width: 300px;
-      padding: 10px;
-  }
+@media only screen and (min-width:860px){
+  .breaktitle{
+    display: none;
 }
 
 
 @media only screen and  (min-width:1200px){
-  .daytime-pics{
-    width: 450px;
-    padding: 10px;
+  h1{
+    font-size: 3em;
   }
 
-  .nightlife-grid img {
-      width: 450px;
-      padding: 10px;
-  } */
+  }
+}
