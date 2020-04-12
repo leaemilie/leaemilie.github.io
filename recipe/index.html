@@ -41,14 +41,15 @@
 </section>
 
 <section class="ingredients hide">
-    <h2>Ingredients</h2>
+    <h2 style="color: chocolate; font-size: 2em;">Ingredients</h2>
+    <div class="board">
     <ul>
       <head><strong style="color: lightsalmon; font-size: 20px;">For the Dough</strong></head><br><br>
-      <li>300g of all purpose flour</li>
-      <li>150g of butter</li>
-      <li>half a teaspoon of salt</li>
-      <li>3 big spoons of sugar</li>
-      <li>8cl of water or milk</li>
+      <li><strong class="gr">300g</strong><strong class="cup">2 cups</strong> of all purpose flour</li>
+      <li><strong class="gr">150g</strong><strong class="cup">2/3 cups</strong> of butter</li>
+      <li><strong class="gr">half a teaspoon</strong><strong class="cup">half a teaspoon</strong> of salt</li>
+      <li><strong class="gr">3 big spoons</strong><strong class="cup">3 big spoons</strong> of sugar</li>
+      <li><strong class="gr">8cl</strong><strong class="cup">5.4 tbsp</strong> of water or milk</li>
       <li>cinnamon powder</li>
       <li>nutmeg powder</li>
       <li>vanilla extract</li>
@@ -56,15 +57,16 @@
 
     <ul>
       <head><strong style="color: lightsalmon; font-size: 20px;">For the Apple mix</strong></head><br><br>
-      <li>100g of sugar</li>
-      <li>50g of butter</li>
-      <li>2 honey crisp apples</li>
+      <li><strong class="gr">100g</strong><strong class="cup">2/3 cups</strong> of sugar</li>
+      <li><strong class="gr">50g</strong><strong class="cup">3.5 tbsp</strong> of butter</li>
+      <li><strong style="color: chocolate;">2 or 3</strong> honey crisp apples</li>
       <li>lime zest</li>
       <li>cinnamon powder</li>
       <li>nutmeg powder</li>
       <li>vanilla extract</li>
     </ul>
-    <p class="conversion">See quantities in cups</p>
+  </div>
+    <button class="conversion" type="button" name="conversion">See quantities in cups</button><br><br>
     <button class="back2" type="button" name="back">Back</button>
     <button class="step3" type="button" name="next">Next</button>
 </section>
@@ -158,16 +160,20 @@
       $(".step2").click(function(){
       $(".utensils").hide(1000);
       $(".ingredients").show(1000);
+      $(".applemix").show(1000);
+      $(".cup").hide();
       });
 
     // Step three
       $(".back2").click(function(){
       $(".ingredients").hide(1000);
+      $(".applemix").hide(1000);
       $(".utensils").show(1000);
       });
       $(".step3").click(function(){
 
       $(".ingredients").hide(1000);
+      $(".applemix").hide(1000);
       $(".preheat").show(1000);
       // $(".cook").css("display", "block");
       });
@@ -175,16 +181,19 @@
     // Step four
       $(".back3").click(function(){
       $(".preheat").hide(1000);
+      $(".cup").hide(1000)
       $(".ingredients").show(1000);
+      $(".applemix").show(1000);
       });
       $(".step4").click(function(){
       $(".preheat").slideUp(1000);
       $(".dough-making").show(1000);
       $(".serve").append("<p class='final'>Bon appétit!</p>");
       });
-      // $("button").click(function(){
-      // $("p").toggle();
-      // });
+      $(".conversion").click(function(){
+      $(".gr").toggle();
+      $(".cup").toggle();
+      });
 
     // Step Five
       $(".back4").click(function(){
