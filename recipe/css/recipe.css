@@ -14,6 +14,8 @@ body{
 }
 h2{
   padding-top: 2em;
+  font-size: 1.5em;
+  text-align: center;
 }
 p{
   margin-left: 100px;
@@ -37,8 +39,11 @@ button{
 button:hover{
   background: lightsalmon;
 }
-.step1, .step2, .step3, .step4, .step5, .step6, .step7, .step8{
+.step1, .step2, .step3, .step4, .step5, .step6, .step7, .step8, .top{
   margin-left: 3.2em;
+}
+.back4{
+  margin-left: 4em;
 }
 .conversion{
  background: seashell;
@@ -98,19 +103,19 @@ button:hover{
   position: fixed;
   font-size: 1.5em;
   text-align: center;
+  /* display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  grid-template-rows: repeat(1, minmax(0, 1fr)); */
 }
 .para2{
   opacity: .7;
-  margin: 0;
-  padding: 0;
+  text-align: center;
   color: black;
   background-color: white;
-  padding:1em;
-  width:20em;
+  padding:.7em;
 }
-.list1{
-  width:20em;
-  margin: 0;
+.back1, .step2{
+  grid-row: 3;
 }
 .ingredients{
   background-color: beige;
@@ -124,6 +129,7 @@ button:hover{
   font-size: 1.5em;
   padding: none;
   margin: none;
+  text-align: center;
 }
 .para3{
   opacity: .7;
@@ -140,6 +146,7 @@ button:hover{
   grid-template-columns: repeat(3, minmax(0, 1fr));
   grid-template-rows: repeat(1, minmax(0, 1fr));
   grid-column: 1;
+text-align: center;
 }
 
 .preheat{
@@ -153,6 +160,7 @@ button:hover{
   position: fixed;
   font-size: 2em;
   color: white;
+  text-align: center;
 }
 .dough-making{
   background-color: seashell;
@@ -175,6 +183,8 @@ button:hover{
   height: auto;
   position: fixed;
   font-size: 2em;
+  color: seashell;
+  text-align: center;
 }
 .apples{
   background-color: lightsteelblue;
@@ -186,7 +196,13 @@ button:hover{
   height: auto;
   position: fixed;
   font-size: 2em;
-  color: white;
+  color: black;
+  text-align: center;
+}
+.textapples, .textpie{
+  padding:.7em;
+  background-color: white;
+  opacity: .7;
 }
 .pie{
   background-color: lightcoral;
@@ -198,7 +214,7 @@ button:hover{
   height: auto;
   position: fixed;
   font-size: 2em;
-  color: white;
+  color: black;
 }
 .serve{
   background-color: lightseagreen;
@@ -210,6 +226,8 @@ button:hover{
   height: auto;
   position: fixed;
   font-size: 2em;
+  text-align: center;
+  color: seashell;
 }
 .gr{
   color: chocolate;
@@ -217,7 +235,9 @@ button:hover{
 .cup{
   color: chocolate;
 }
-
+.final{
+  margin-left: 0;
+}
 
 @media only screen and (min-width:860px){
   .breaktitle{
