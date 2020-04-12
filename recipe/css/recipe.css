@@ -131,22 +131,19 @@ button:hover{
   margin: none;
   text-align: center;
 }
-.para3{
+.board{
+  display: grid;
+  padding: .5em;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-rows: repeat(1, minmax(0, 1fr));
+  grid-column: 1;
+  text-align: center;
   opacity: .7;
-  margin-left: 0;
-  margin-right: 1em;
+  margin: 0;
   padding: 0;
   color: black;
   background-color: white;
   padding:.3em;
-}
-.board{
-  display: grid;
-  padding: none;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  grid-template-rows: repeat(1, minmax(0, 1fr));
-  grid-column: 1;
-text-align: center;
 }
 
 .preheat{
