@@ -44,26 +44,38 @@ button:hover{
   background: lightsalmon;
   color: white;
 }
-.servings{
-  margin-left: 100px;
-  padding-top: 100px;
-}
 .hide{
   display: none;
 }
 .intro{
+  background-color: lightblue;
   background-image: url(../pics/homepic.jpg);
-  background-size:cover;
+  background-size: cover;
+  background-position: center;
   min-height: 100%;
   width: 100%;
   height: auto;
   position: fixed;
   font-size: 2em;
   color: white;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-rows: repeat(4, minmax(0, 1fr));
+}
+.first{
+ grid-column: 2;
+ grid-row: 2;
+ margin:0;
+ padding:0;
+}
+.step1{
+  margin:0;
 }
 .utensils{
+  background-color: lightpink;
   background-image: url(../pics/utensils.jpg);
   background-size:cover;
+  background-position: center;
   min-height: 100%;
   width: 100%;
   height: auto;
@@ -71,8 +83,10 @@ button:hover{
   font-size: 1.5em;
 }
 .ingredients{
+  background-color: beige;
   background-image: url(../pics/ingredients1.jpg);
   background-size:cover;
+  background-position: center;
   min-height: 100%;
   width: 100%;
   height: auto;
@@ -90,8 +104,10 @@ button:hover{
 }
 
 .preheat{
+  background-color: lightgrey;
   background-image: url(../pics/oven1.jpg);
   background-size:cover;
+  background-position: center;
   min-height: 100%;
   width: 100%;
   height: auto;
@@ -100,8 +116,10 @@ button:hover{
   color: white;
 }
 .dough-making{
+  background-color: seashell;
   background-image: url(../pics/rolldough.jpg);
   background-size:cover;
+  background-position: center;
   min-height: 100%;
   width: 100%;
   height: auto;
@@ -109,8 +127,10 @@ button:hover{
   font-size: 2em;
 }
 .caramel-making{
+  background-color: lightgreen;
   background-image: url(../pics/caramel.jpg);
   background-size:cover;
+  background-position: center;
   min-height: 100%;
   width: 100%;
   height: auto;
@@ -118,8 +138,10 @@ button:hover{
   font-size: 2em;
 }
 .apples{
+  background-color: lightsteelblue;
   background-image: url(../pics/apples.jpg);
   background-size:cover;
+  background-position: center;
   min-height: 100%;
   width: 100%;
   height: auto;
@@ -128,8 +150,10 @@ button:hover{
   color: white;
 }
 .pie{
+  background-color: lightcoral;
   background-image: url(../pics/pieoven.jpg);
   background-size:cover;
+  background-position: center;
   min-height: 100%;
   width: 100%;
   height: auto;
@@ -138,8 +162,10 @@ button:hover{
   color: white;
 }
 .serve{
+  background-color: lightseagreen;
   background-image: url(../pics/glace.jpg);
   background-size:cover;
+  background-position: center;
   min-height: 100%;
   width: 100%;
   height: auto;
@@ -152,6 +178,7 @@ button:hover{
 .cup{
   color: chocolate;
 }
+
 
 @media only screen and (min-width:860px){
   .breaktitle{
