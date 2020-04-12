@@ -13,20 +13,21 @@ body{
   font-family: 'Oswald', sans-serif;
 }
 h2{
-  margin-left: 100px;
   padding-top: 2em;
 }
 p{
   margin-left: 100px;
 }
 li{
-  margin-left: 50px;
   list-style-type: none;
   padding-left: 0;
-  margin-left: 0;
+  margin: 0;
+}
+ul{
+  padding: 0;
+  margin: 0;
 }
 button{
-  margin-left: 100px;
   background: chocolate;
   padding: .3rem .5rem;
   font-size: 20px;
@@ -35,6 +36,9 @@ button{
 }
 button:hover{
   background: lightsalmon;
+}
+.step1, .step2, .step3, .step4, .step5, .step6, .step7, .step8{
+  margin-left: 3.2em;
 }
 .conversion{
  background: seashell;
@@ -60,13 +64,25 @@ button:hover{
   color: white;
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  grid-template-rows: repeat(4, minmax(0, 1fr));
+}
+.servings{
+  margin: 0;
+  font-size: 1.5em;
 }
 .first{
  grid-column: 2;
  grid-row: 2;
  margin:0;
  padding:0;
+}
+.para1{
+  opacity: .7;
+  margin-left: 0;
+  margin-right: 1em;
+  padding: 5em;
+  background-color: chocolate;
+  padding:.3em;
+  width: 17em;
 }
 .step1{
   margin:0;
@@ -81,6 +97,20 @@ button:hover{
   height: auto;
   position: fixed;
   font-size: 1.5em;
+  text-align: center;
+}
+.para2{
+  opacity: .7;
+  margin: 0;
+  padding: 0;
+  color: black;
+  background-color: white;
+  padding:1em;
+  width:20em;
+}
+.list1{
+  width:20em;
+  margin: 0;
 }
 .ingredients{
   background-color: beige;
@@ -94,6 +124,15 @@ button:hover{
   font-size: 1.5em;
   padding: none;
   margin: none;
+}
+.para3{
+  opacity: .7;
+  margin-left: 0;
+  margin-right: 1em;
+  padding: 0;
+  color: black;
+  background-color: white;
+  padding:.3em;
 }
 .board{
   display: grid;
