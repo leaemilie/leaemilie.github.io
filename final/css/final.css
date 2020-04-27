@@ -39,3 +39,5 @@
   background-color: crimson;
   color: white;
 }
+
+/* put images as 100% for width, then put them in a div and make the div 50% of the screen's width and then make it margin 0 and auto to center it to keep everything proportional as the screen size changes */
