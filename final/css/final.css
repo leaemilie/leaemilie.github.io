@@ -54,12 +54,14 @@ footer{
 }
 
 .bottom{
-    grid-row:13;
-    display: grid;
+
     grid-template-columns: 50% 50%;
     grid-gap: 2.5em;
 }
 
+.social-media{
+  justify-content: center;
+}
 
 
 
