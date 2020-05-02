@@ -5,6 +5,7 @@ body {
 
 /* header */
 h1{
+  color: hotpink;
   text-align: center;
 }
 /* The navigation bar */
@@ -20,8 +21,7 @@ h1{
 
 /* Links inside the navbar */
 .navbar a {
-  display: inline-block;
-  text-align: center;
+  float: left;
   display: block;
   color: white;
   padding: 14px 16px;
@@ -34,13 +34,6 @@ h1{
   color: black;
 }
 
-.navbar-centered a {
-  float: none;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 
 /* Main content */
 .main {
