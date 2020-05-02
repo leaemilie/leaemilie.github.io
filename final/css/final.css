@@ -14,7 +14,7 @@ h1{
   overflow: hidden;
   background-color: orange;
   position: fixed;
-  top: auto;
+  top: 1;
   width: 100%;
 }
 
