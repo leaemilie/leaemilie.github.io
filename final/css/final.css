@@ -5,7 +5,7 @@ body {
 
 /* header */
 h1{
-  color: hotpink;
+  color: orange;
   text-align: center;
 }
 /* The navigation bar */
@@ -13,7 +13,7 @@ h1{
   display: inline-block;
   text-align: center;
   overflow: hidden;
-  background-color: hotpink;
+  background-color: orange;
   position: fixed;
   top: auto;
   width: 100%;
@@ -43,7 +43,7 @@ h1{
 
 footer{
     grid-row:13;
-    background-color: #333;
+    background-color: darkorange;
     color: white;
     padding-bottom: 20px;
 }
