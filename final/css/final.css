@@ -9,8 +9,6 @@ h1{
 }
 /* The navigation bar */
 .navbar {
-  display: inline-block;
-  text-align: center;
   overflow: hidden;
   background-color: orange;
   position: fixed;
@@ -41,7 +39,6 @@ h1{
 /* footer */
 
 footer{
-    grid-row:13;
     background-color: darkorange;
     color: white;
     padding-top: 15px;
