@@ -44,6 +44,12 @@ body {
   color: white;
 }
 
+/* nav for computer screen */
+.top{
+  background-color: pink;
+  decoration: none;
+}
+
 /* footer */
 
 footer{
@@ -54,13 +60,12 @@ footer{
 }
 
 .bottom{
-
-    grid-template-columns: 50% 50%;
-    grid-gap: 2.5em;
+justify-content: center;
+    /* grid-gap: 2.5em; */
 }
 
 .social-media{
-  justify-content: center;
+  justify: center;
 }
 
 
