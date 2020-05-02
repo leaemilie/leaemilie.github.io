@@ -34,7 +34,7 @@ h1{
   color: black;
 }
 
-.topnav-centered a {
+.navbar-centered a {
   float: none;
   position: absolute;
   top: 50%;
@@ -66,12 +66,12 @@ justify-content: center;
 }
 
 @media screen and (max-width: 600px) {
-  .topnav a, .topnav-right {
+  .navbar a{
     float: none;
     display: block;
   }
 
-  .topnav-centered a {
+  .navbar-centered a {
     position: relative;
     top: 0;
     left: 0;
