@@ -9,19 +9,21 @@ h1{
 }
 /* The navigation bar */
 .navbar {
+  display: inline-block;
+  text-align: center;
   overflow: hidden;
-  background-color: #333;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
+  background-color: hotpink;
+  position: fixed;
+  top: auto;
+  width: 100%;
 }
 
 /* Links inside the navbar */
 .navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
+  display: inline-block;
   text-align: center;
+  display: block;
+  color: white;
   padding: 14px 16px;
   text-decoration: none;
 }
@@ -30,6 +32,14 @@ h1{
 .navbar a:hover {
   background: #ddd;
   color: black;
+}
+
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* Main content */
@@ -53,6 +63,20 @@ justify-content: center;
 
 .social-media{
   justify: center;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav-right {
+    float: none;
+    display: block;
+  }
+
+  .topnav-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
 }
 
 
