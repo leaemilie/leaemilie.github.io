@@ -1,15 +1,18 @@
-/* Everything */
+/****************************** Everything **************************/
+/******************************                **************************/
 body {
-  font-family: Arial, Helvetica, sans-serif;
+font-family: 'Yatra One', cursive;
   margin: 0;
 }
 h2{
   text-align: center;
-  color: orange;
+  color: slateblue;
   margin-top: 3.5em;
   margin-bottom: 1em;
+  font-size: 2em;
 }
-/* header */
+/****************************** Header *************************************/
+/******************************        *************************************/
 h1{
   color: white;
   text-align: center;
@@ -19,12 +22,13 @@ h1{
 h4{
 margin: 2em 0em;
 }
-/* The navigation bar */
+/****************************** NAV BAR *************************************/
+/******************************        *************************************/
 .navbar {
   display: grid;
   grid-template-columns: 3fr 1fr 1fr 1fr 1fr 1fr;
   overflow: hidden;
-  background-color: orange;
+  background-color: darkslateblue;
   position: fixed;
   top: 0;
   width: 100%;
@@ -45,7 +49,8 @@ margin: 2em 0em;
   color: black;
 }
 
-/* parallax effect */
+/****************************** Parallax effect ****************************/
+/******************************                 ****************************/
 body, html {
   height: 100%;
 }
@@ -55,47 +60,54 @@ body, html {
 }
 
 .listenparallax {
-  background-image: url("../pics/studio.jpg");
+  background-image: url("../pics/vynil.jpg");
   height: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: orange;
+  color: slateblue;
 }
-/* Main content */
+/****************************** MAIN CONTENT ******************************/
+/******************************              *******************************/
 .main {
   margin-top: 2em; /* Add a top margin to avoid content overlay */
 }
 
-/* Home section */
+/****************************** Home section ******************************/
+/******************************              *******************************/
 .imageshome{
   margin-top: 4em;
 }
 .text{
-background-image: url(../pics/orange.jpg);
+background-color: white;
+opacity: .8;
 padding: 2em;
-color: white;
+color: slateblue;
 margin-top: 2em;
 margin-bottom: 2em;
 }
 .text1{
-  background-image: url(../pics/orange.jpg);
+  background-color: white;
+  opacity: .8;
   padding: 2em;
-  color: white;
+  color: slateblue;
   margin-top: 2em;
   margin-bottom: 0;
 }
-/* background white box section */
-/* .whitebox{
-width: 60%;
-max-width: 1280px;
-color: orange;
-background: rgba(255, 255, 255, 0.5);
-margin: 0 auto;
-} */
 
-/* About section */
+/****************************** About section ******************************/
+/******************************              *******************************/
+
+.aboutparallax {
+  background-image: url("../pics/piano.jpg");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: slateblue;
+}
 .past{
   display: grid;
   width: 80%;
@@ -121,7 +133,8 @@ margin: 0 auto;
   text-align: center;
 }
 
-/* listen section */
+/****************************** Listen section ******************************/
+/******************************              *******************************/
 .videolisten{
   text-align: center;
   justify-content: center;
@@ -159,7 +172,7 @@ grid-row-start: 2;
 grid-column-start: 2;
 grid-row-start: 1;
 }
-#heldegard, #title2{
+#heldegard, #title4{
 grid-column-start: 2;
 grid-row-start: 2;
 }
@@ -175,7 +188,7 @@ grid-row-start: 2;
 grid-column-start: 1;
 grid-row-start: 3;
 }
-#alien1, #title4{
+#alien1, #title2{
 grid-column-start: 1;
 grid-row-start: 4;
 }
@@ -196,29 +209,89 @@ grid-column-start: 3;
 grid-row-start: 4;
 }
 
-/* TITLES COMING */
+/* TITLES ALIGN */
 
 #title1, #title2, #title3, #title4, #title5, #title6{
 align-items:baseline;
 }
 
-/* Contact section */
+/****************************** Watch section ******************************/
+/******************************              *******************************/
+.watchparallax {
+  background-image: url("../pics/filming.jpg");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: slateblue;
+  display: grid;
+}
+
+.watchvid{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.linkwatch{
+color: white;
+}
+
+#titlevid1, #titlevid2, #titlevid3, #titlevid4{
+align-items:baseline;
+}
+
+#packagevid{
+grid-column-start: 1;
+grid-row-start: 1;
+}
+#titlevid1{
+grid-column-start: 1;
+grid-row-start: 2;
+}
+#purplevid{
+grid-column-start: 2;
+grid-row-start: 1;
+}
+#titlevid2{
+grid-column-start: 2;
+grid-row-start: 2;
+}
+#finalsvid{
+grid-column-start: 1;
+grid-row-start: 3;
+}
+#titlevid3{
+grid-column-start: 1;
+grid-row-start: 4;
+}
+
+/****************************** Contact section ******************************/
+/******************************              *******************************/
 .contactform{
   margin: 8em 7em 4em 7em;
+  text-align: center;
 }
 .contactbkg{
-  background-image: url(../pics/orange.jpg);
-  background-size:cover;
-  min-height: 100%;
+  background-image: url(../pics/purplebackground.png);
+  height: 100%;
   width: 100%;
-  height: auto;
-  /* position: fixed; */
+  text-align: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-/* footer */
+/****************************** Footer *************************************/
+/******************************        ************************************/
 
 footer{
-    background-color: darkorange;
+    background-color: darkslateblue;
     color: white;
     margin-top: 0;
     padding-top: 20px;
@@ -227,13 +300,16 @@ footer{
     bottom: 0;
 }
 
+/****************************** MEDIA QUERIES ******************************/
+/******************************              *******************************/
+
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-device-width: 1366px) {
   .parallax {
     background-attachment: scroll;
   }
 }
-/* @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .navbar a{
     float: none;
     display: block;
@@ -245,7 +321,7 @@ footer{
     left: 0;
     transform: none;
   }
-} */
+}
 
 
 

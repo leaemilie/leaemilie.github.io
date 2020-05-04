@@ -3,6 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title>Léa Dorne</title>
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Yatra+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/final.css">
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163791021-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -10,27 +14,65 @@
   gtag('js', new Date());
   gtag('config', 'UA-163791021-1');
 </script>
-<link href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all" rel="stylesheet">
-
   </head>
+
   <body>
 <header>
-  <h1>Léa Dorne-Watch</h1>
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="listen.html">Listen</a></li>
-      <li><a href="watch.html">Watch</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
+
+<div class="navbar">
+  <h1>Léa Dorne</h1>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="listen.html">Listen</a>
+  <a href="watch.html">Watch</a>
+  <a href="contact.html">Contact</a>
+</div>
 </header>
+
 <main>
+  <div class="watchparallax">
+<br>
+    <h2>Watch</h2>
+<div class="watchvid">
+    <div class="videolisten">
+      <video id="packagevid" width="80%" height=auto controls>
+      <source src="videos/package.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+      </video>
+      <h3 id="titlevid1">Supporting role: <em>Your Package Will Be Arriving Shortly</em>, <a class="linkwatch" href="https://www.48hourfilm.com/en/miami-fl/films/36857">48h Film Project festival 2019</a>, Best Film 3rd place</h3>
+      </div>
 
+<div class="videolisten">
+    <video id="purplevid" width="80%" height=auto controls>
+  <source src="videos/purple.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<h3 id="titlevid2">Lead role: <em>Purple</em>, student film, 2018</h3>
+</div>
+
+
+<div class="videolisten">
+<video id="finalsvid" width="80%" height=auto controls>
+<source src="videos/finals.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<h3 id="titlevid3">Director, Editor, Supporting role: <em><a class="linkwatch" href="https://www.youtube.com/watch?v=-hECVx6fd8A">Finals</a></em>, 2019</h3>
+</div>
+
+<div class="videolisten">
+<img id="finalsvid" width="80%" height=auto src="pics/finalblow.jpg" alt="finalBlowthemovie">
+<h3 id="titlevid3">Executive Producer, Music Director, Supporting role: <em>Final Blow</a></em>, 2020</h3>
+</div>
+
+</div>
 </main>
-<footer>
 
+<footer>
+      <a href="https://www.youtube.com/channel/UCNcohWRkmImeYJ-m6HOGU-A">
+      <img height="40px" src="pics/youtube.png" alt="youtube-icon"></a>
+      <a href="https://www.linkedin.com/in/léa-dorne-9ba213187/?locale=en_US">
+      <img height="40px" src="pics/linkedin.png" alt="linkedin-icon"></a>
+      <p>©LéaDorne2020</p>
 </footer>
   </body>
 </html>
