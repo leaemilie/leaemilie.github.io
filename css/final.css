@@ -20,6 +20,7 @@ h4{
 margin: 2em 0em;
 }
 
+
 /****************************** NAV BAR *************************************/
 /******************************        *************************************/
 .navbar {
@@ -59,6 +60,18 @@ body, html {
 /******************************              *******************************/
 .imageshome{
   margin-top: 4em;
+}
+
+/* adapt carousel size acording to screen */
+
+.full-screen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.full-screen.piano{
+  background-position: left;
 }
 
 /****************************** About section ******************************/
