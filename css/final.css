@@ -230,6 +230,18 @@ width: 40px;
   height: 45.5em;
   }
 
+  /* adapt carousel size acording to screen */
+
+  .full-screen {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .full-screen.piano{
+    background-position: left;
+  }
+
   /****************************** About section ******************************/
   /******************************              *******************************/
 
