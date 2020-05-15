@@ -7,19 +7,16 @@ font-family: 'Yatra One', cursive;
 }
 
 h1{
-  font-size: 2.7em;
   color: white;
   text-align: center;
 }
 
 h2{
-  font-size: 2em;
   text-align: center;
   color: slateblue;
 }
 
 h4{
-font-size: 2em;
 margin: 2em 0em;
 }
 
@@ -28,11 +25,10 @@ margin: 2em 0em;
 /******************************        *************************************/
 .navbar {
   background-color: darkslateblue;
-  height: 3em;
 }
 /* Links inside the navbar */
 .navbar a {
-  font-size: 2.5em;
+  font-size: 1.2em;
 }
 /* Change background on mouse-over */
 .navbar a:hover {
