@@ -7,16 +7,19 @@ font-family: 'Yatra One', cursive;
 }
 
 h1{
+  font-size: 3em;
   color: white;
   text-align: center;
 }
 
 h2{
+  font-size: 2em;
   text-align: center;
   color: slateblue;
 }
 
 h4{
+font-size: 2em;
 margin: 2em 0em;
 }
 
